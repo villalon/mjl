@@ -45,7 +45,6 @@
             <ul class="nav">
               <li class="active"><a href="index.php">Home</a></li>
               <li><a href="http://www.villalon.cl/">Villalon.cl</a></li>
-              <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>

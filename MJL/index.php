@@ -20,9 +20,6 @@
 				href="http://www.timeshighereducation.co.uk/world-university-rankings/">Times
 				Higher Education</a>.
 		</p>
-		<p>
-			<a class="btn" href="#">View details &raquo;</a>
-		</p>
 	</div>
 	<div class="span4">
 		<h2>Flexible search</h2>
@@ -33,9 +30,9 @@
 				Journal List</a> you can search journals by title or keyword, but it
 			just doesn't work.
 		</p>
-		<p>
+<!-- 		<p>
 			<a class="btn" href="#">View details &raquo;</a>
-		</p>
+		</p> -->
 	</div>
 	<div class="span4">
 		<h2>Good Guy Google Scholar</h2>
@@ -44,9 +41,6 @@
 			ellusive PDF files of some obscure publications. We built this
 			journals search for easy integration with Google Scholar, obviously
 			because they do their job like noone.</p>
-		<p>
-			<a class="btn" href="#">View details &raquo;</a>
-		</p>
 	</div>
 </div>
 

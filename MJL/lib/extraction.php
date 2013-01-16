@@ -1,5 +1,7 @@
 <?php
 
+include 'db.php';
+
 function isValidLine($line) {
 	if(stripos($line,"<dt>") === false
 			&& stripos($line,"ARCHITECTURE") === false) {
@@ -38,7 +40,7 @@ function cleanLine($line) {
 
 function processJournalsList($lines) {
 	
-	$db = new mysqli('localhost','root','','mjl') or die("Couldn't connect to DB:".$db->error);
+	$db = getConnection();
 	
 	$db->query("TRUNCATE journals");
 	

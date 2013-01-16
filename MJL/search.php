@@ -1,6 +1,7 @@
 <?php
 
 include 'lib/header.php';
+include 'lib/db.php';
 
 $rowsperpage = 10;
 $page = 1;
@@ -20,7 +21,7 @@ if(strlen($query) < 2) {
 
 $columns = array("title","issn","publisher_name","publisher_address");
 
-$db = new mysqli('localhost','root','','mjl') or die("Couldn't connect to DB:".$db->error);
+$db = getConnection();
 
 $parts = explode(' ', $query);
 
