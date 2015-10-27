@@ -83,7 +83,7 @@ class journal {
 	}
 	
 	public function extractIndex($line) {
-		$pattern = "/<a href=\"http:\/\/thomsonreuters.com\/products_services.*\">(.*)<\/a>/i";
+		$pattern = "/<a href=\"http:\/\/thomsonreuters.com\/.*\">(.*)<\/a>/i";
 		if(!preg_match_all($pattern, $line, $matches))
 			throw new Exception("Error: $pattern not found in $line");
 

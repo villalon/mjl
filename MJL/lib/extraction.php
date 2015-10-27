@@ -1,7 +1,5 @@
 <?php
 
-include 'db.php';
-
 function isValidLine($line) {
 	if(stripos($line,"<dt>") === false
 			&& stripos($line,"ARCHITECTURE") === false) {

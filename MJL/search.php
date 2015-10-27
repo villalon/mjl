@@ -128,9 +128,7 @@ while(($row = $result->fetch_assoc())!=null) {
 		</h3>
 	</div>
 	<div class="modal-body">
-		<p>
-		
-		
+		<br/>
 		<dl class="dl-horizontal">
 			<dt>Recurrence</dt>
 			<dd>
@@ -147,7 +145,7 @@ while(($row = $result->fetch_assoc())!=null) {
 				</address>
 			</dd>
 		</dl>
-		</p>
+		<br/>
 	</div>
 	<div class="modal-footer">
 		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
